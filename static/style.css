@@ -1,0 +1,29 @@
+/* Navbar Transparente */
+.custom-navbar {
+    background-color: rgba(255, 255, 255, 0.7) !important; /* Blanche avec transparence */
+    backdrop-filter: blur(10px); /* Effet de flou */
+}
+
+/* Assure-toi que le texte de la navbar est visible */
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #007bff; /* Couleur du texte de la navbar */
+}
+
+.navbar .nav-link:hover {
+    color: #0056b3; /* Couleur du texte au survol */
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff;
+}
